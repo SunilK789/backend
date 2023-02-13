@@ -2,9 +2,14 @@
   "name": "inotebook-backend",
   "version": "1.0.0",
   "description": "",
+
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "\"npx nodemon@latest server.js backend\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "both": "concurrently \"npm run start\" \"npx nodemon@latest server.js backend\""
   },
   "author": "",
   "license": "ISC",
