@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "both": "concurrently \"npm run start\" \"npx nodemon@latest server.js backend\"",
+    "start": "node index.js",
     "connectDB": "\"npx nodemon@latest server.js backend\""
   },
   "author": "",
